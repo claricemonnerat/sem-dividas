@@ -1,0 +1,53 @@
+
+body{
+    background-color: var(--bs-black);
+    color: #e1fff8;
+    margin: 5vh;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    background-image: url(../images/Logo\ Fundo\ Preto.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20%;
+
+}
+
+h2{
+    margin:30px;
+    text-align: center;
+}
+
+.vantagens{
+    text-align: center;
+}
+.vantagens dd{
+    text-align: center;
+
+}
+
+.icon{
+    font-size: 20px;
+    margin: 2px;
+    transition: 0.5s;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color:var(--bs-white);
+    width: 50%;
+}
+
+.links{
+    margin: 40px;
+    text-align: center;
+    border: 2px solid #e1fff8;
+    
+}
+
+.links:hover{
+    background-color:#03b88e;
+}

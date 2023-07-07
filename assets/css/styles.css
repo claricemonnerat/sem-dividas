@@ -1,0 +1,142 @@
+
+body{
+    background-color: #e1fff8;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    background-image: url(../images/Logo\ sem\ dívidas.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    background-color: #03024b;
+    color: var(--bs-white);
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    font-size: 1.2rem;
+    list-style: none;
+    margin: auto;
+    
+}
+
+.menu a{
+    color: var(--bs-white);
+}
+
+.login{
+    border: 2px solid #5B6AF1;
+    border-radius: 5px;
+    padding: 0px 30px;
+    text-align: center;
+    background-color: #5b6af1;
+    color: var(--bs-black);
+}
+
+.login:hover{
+    background-color: #03b88e;
+    border: 2px solid #03b88e;
+    color: #5B6AF1;
+
+}
+
+.registro{
+    border: 2px solid #5B6AF1;
+    border-radius: 5px;
+    padding: 0px 30px;
+    text-align: center;
+    color: var(--bs-white);
+}
+.registro:hover{
+    background-color: #03b88e;
+    border: 2px solid #03b88e;
+    color: #5B6AF1;
+
+}
+
+
+
+.home{
+    background-image: url(../images/Logo\ Fundo\ Preto.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 90%;
+    background-color: var(--bs-black);
+    color: var(--bs-white);
+    width: 100%;
+    height: 500px;
+    text-align: left;
+    padding: 20px 100px;
+        
+}
+
+.texto{
+    font-size: 3rem;
+    width: 50%;
+    text-align: center;
+}
+
+.descricao{
+    font-size:1.3rem;
+    width: 50%;
+    text-align: center;
+}
+
+.experimente{
+    margin: 40px;
+    font-size:1.5rem;
+    width: 50%;
+    background-color: #03b88e;
+    border: 2px solid #03b88e;
+    border-radius: 5px;
+    color: var(--bs-black);
+    text-align: center;
+    width: 43%;
+
+}
+
+.experimente a{
+    color:var(--bs-black);
+}
+
+.servicos{
+    list-style: none;
+    font-size: 1rem;
+    padding: 50px 20px;
+    color: var(--bs-black);
+
+}
+
+.servicos h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.icon{
+    font-size: 60px;
+    color: var(--bs-black);
+    margin: 20px;
+    transition: 0.5s;
+
+}
+.rodape{
+    text-align:center;
+    background-color: var(--bs-black);
+    color: var(--bs-light);
+}
+
+
